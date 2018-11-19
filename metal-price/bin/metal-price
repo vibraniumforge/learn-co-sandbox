@@ -1,0 +1,3 @@
+!#/usr/bin/env ruby
+
+MetalPrice::CLI.new.call
