@@ -1,9 +1,13 @@
 require 'open-uri'
 require "nokogiri"
 require "pry"
-# require_relative "./lib/metal/price/version.rb"
-
-class Scraper
+require_relative "./metal/price/version.rb"
+require_relative "./cli.rb"
+module MetalPrice
+  
+end
+  
+  class Scraper
     def scrape_page
         prices=[]
         list=Nokogiri::HTML(open("https://goldprice.com/"))

@@ -1,3 +1,5 @@
 !#/usr/bin/env ruby
 
+require "./lib/metal/price"
+
 MetalPrice::CLI.new.call
