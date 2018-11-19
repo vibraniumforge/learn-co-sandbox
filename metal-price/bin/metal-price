@@ -1,5 +1,5 @@
 !#/usr/bin/env ruby
 
-require "./lib/metal/price"
+require_relative "./lib/cli.lib"
 
 MetalPrice::CLI.new.call
